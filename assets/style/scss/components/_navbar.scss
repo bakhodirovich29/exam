@@ -25,7 +25,7 @@ header {
                     li {
                         
                         a {
-                            color: #939CAA;
+                            color: $dimGrey;
                             font-family: Space Mono;
                             font-size: 15px;
                             font-style: normal;
@@ -34,7 +34,7 @@ header {
                             transition: 0.5s;
                             
                             &:hover {
-                                color: #FCB72B;
+                                color: $yellow;
                             }
                         }
                     }

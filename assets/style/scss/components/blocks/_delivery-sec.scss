@@ -7,7 +7,7 @@
         justify-content: space-between;
         max-width: 840px;
         height: 15px;
-        background-color: #E5ECF4;
+        background-color: $lightGrey;
         margin-top: 208px;
     }
     
@@ -17,7 +17,7 @@
         
         #item {
             h3 {
-                color: #495567;
+                color: $darkNavy;
                 font-family: Space Mono;
                 font-size: 24px;
                 font-style: normal;
@@ -27,7 +27,7 @@
             }
             p {
                 max-width: 350px;
-                color: #939CAA;
+                color: $dimGrey;
                 font-family: Lexend Deca;
                 font-size: 15px;
                 font-style: normal;
@@ -48,7 +48,6 @@
     display: none;
 }
 
-// Delivery Tablet And Mobile Section Start
 @media only screen and (max-width: 1024px) {
     .delivery {
         
@@ -62,7 +61,7 @@
             justify-content: space-between;
             max-width: 15px;
             height: 420px;
-            background-color: #E5ECF4;
+            background-color: $lightGrey;
             margin-top: 208px;
         }
         
@@ -76,7 +75,7 @@
                 padding-left: 120px;
                 
                 h3 {
-                    color: #495567;
+                    color: $darkNavy;
                     font-family: Space Mono;
                     font-size: 24px;
                     font-style: normal;
@@ -86,7 +85,7 @@
                 }
                 p {
                     max-width: 350px;
-                    color: #939CAA;
+                    color: $dimGrey;
                     font-family: Lexend Deca;
                     font-size: 15px;
                     font-style: normal;
@@ -131,7 +130,7 @@
             }
             h3 {
                 max-width: 200px;
-                color: #495567;
+                color: $darkNavy;
                 text-align: center;
                 font-family: Space Mono;
                 font-size: 20px;
@@ -145,7 +144,7 @@
             p {
                 max-width: 311px;
                 margin: 0 auto;
-                color: #939CAA;
+                color: $dimGrey;
                 text-align: center;
                 font-family: Lexend Deca;
                 font-size: 15px;
