@@ -1,5 +1,5 @@
 .delivery {
-    max-width: 1110px;
+    max-width: 100%;
     margin: 0 auto;
     .line {
         display: flex;
@@ -24,6 +24,8 @@
                 font-weight: 700;
                 line-height: 28px;
                 letter-spacing: -1.071px;
+                margin-top: 40px;
+                margin-bottom: 27px;
             }
             p {
                 max-width: 350px;
